@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title">Etch-a-Sketch</h1>
+    </header>
+    <main class="main">
+        <div class="setting">
+            <input type="color" id="colorPicker" value="#333">
+            <button id="colorBtn">Color mode</button>
+            <button id="rainbowBtn">Rainbow mode</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearBtn">Clear</button>
+            <input type="range" id="sizeSlider" value="16" min="1" max="64">
+        </div>
+        <div class="grid" id="grid">
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            by Du Vu
+        </p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

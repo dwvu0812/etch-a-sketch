@@ -1,0 +1,30 @@
+:root {
+    --primary-dark: #333;
+    --primary-light: #ededed;
+    --secondary-light: #fefefe;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+
+h1 {
+    line-height: 1.2;
+}
